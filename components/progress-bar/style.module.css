@@ -1,0 +1,13 @@
+.animatedProgressbar {
+  animation: 2s infinite normal progress;
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
